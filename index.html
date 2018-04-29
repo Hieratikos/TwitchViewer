@@ -9,20 +9,21 @@
     <script type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
-<div class="container">
-    <div class="header">
-        <h1>Twitch TV Viewer</h1>
-        brought to you by
-        <h2>Hieratikos</h2>
-        <table>
-            <tr>
-                <td class="left"><hr class="flared"></td>
-                <td class="center"><img class="logoImg" src="../images/NightfallLogo.webp"></td>
-                <td class="right"><hr class="flared"></td>
-            </tr>
-        </table>
 
-    </div>
+<header id="tempHeader">
+    <div id="tempPageTitle">Twitch TV Viewer</div>
+    brought to you by
+    <div id="tempAuthor">jordiCombs</div>
+    <table id="tempLogoTable">
+        <tr>
+            <td id="tempLogoTableLeft"><hr class="flared"></td>
+            <td id="tempLogoTableCenter"><img id="logoImg" src="http://res.cloudinary.com/hieratikos/image/upload/v1492361036/NightfallLogo_ndt9em.png"></td>
+            <td id="tempLogoTableRight"><hr class="flared"></td>
+        </tr>
+    </table>
+</header>
+
+<div class="container">
     <div class="row">
         <h1>
         <div class="col-md-4">
@@ -36,10 +37,9 @@
         </div>
         </h1>
     </div>
-<h4>
-        <div id="followerInfo">
-        </div>
-</h4>
+    <h4>
+        <div id="followerInfo"></div>
+    </h4>
 </div>
 
 </body>
