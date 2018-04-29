@@ -1,0 +1,24 @@
+@import "templateProjectPageHeader";
+
+body{
+    font-family: $fontBody;
+    color: $NIGHTFALL;
+    background-color: $HEATWAVE;
+}
+h1{
+    font-family: $fontHeadings;
+}
+//the twitchImg class is set in the JS code when the image is rendered
+.twitchImg{
+    height: 100px;
+    border-radius: 25px;
+}
+.col-md-4{
+    padding: 5px;
+}
+.row{
+    margin: 1vh;
+    background-color: $SUNSET;
+    border: 5px $TROPICALPINK solid;
+    border-radius: 1em;
+}
