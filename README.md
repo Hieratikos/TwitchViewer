@@ -1,0 +1,1 @@
+A Twitch TV API project as part of the projects for freeCodeCamp, and I only completed the minimum number of user stories since the API is so limited in scope.
